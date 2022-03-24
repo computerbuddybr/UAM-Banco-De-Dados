@@ -1,3 +1,13 @@
+###Enunciado:
+A empresa de desenvolvimento de software em que você trabalha precisa desenvolver um software para o setor de recursos humanos de uma empresa contratante. Você, como Projetista de Dados do projeto, foi encarregado de construir o modelo relacional do sistema. Em uma reunião com o cliente, o cenário foi levantado e, depois, registrado por meio do seguinte texto em uma ata:
+
+"A empresa organiza o seu trabalho em projetos que possuem um número identificador como código, uma abreviatura do projeto e um texto descritivo. Por exemplo, um projeto pode ser de código 2134, com abreviatura de "TOPAZIO" e com breve descrição de "Construção do condomínio predial Topázio". Em cada projeto, são alocados os empregados que possuem um código e um nome; se um projeto possui seu conjunto de empregados, um empregado pode atuar junto a vários projetos. Além disso, o sistema tem um cadastro de cargos e um cadastro dos setores da empresa. O registro de um cargo possui um código, uma descrição e o valor do salário, e o de um setor possui um código e uma descrição. Cada empregado deve estar associado ao seu cargo e alocado ao seu setor".
+
+Diante desse cenário, responda às questões a seguir.
+
+Construa o modelo relacional que representa o cenário exposto, contemplando tabelas, campos, chaves primárias e chaves estrangeiras no modelo.
+Apresente o comando de DDL (Data Definition Language) para a criação da tabela de CARGOS, contemplando os campos, seus tipos de dados, a obrigatoriedade e a chave primária.
+
 **Segue a resposta do exercício feito com o MySQL Workbench com 5 arquivos.**
 
 - 1 ReadMe.md com as explicações da lógica que me levaram a resolver a atividade.
