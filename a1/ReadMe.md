@@ -21,6 +21,8 @@ Cada funcionário possui um cargo e um setor, e somente um de cada. Porém, cada
 
 Já cada projeto pode estar relacionado a mais de um funcionário e mais de um funcionário pode estar relacionado a mais de um projeto. Com uma relação n:m, de muitos para muitos. Para tanto, criei uma tabela extra PROJETOS_TEM_FUNCIONARIOS com dois atributos que são duas chaves estrangeiras relacionando o código do projeto com o código do funcionário, fk_cod_projeto e fk_cod_projeto.
 
+Este foi meu pensamento inicial, mas acho que foi aqui que perdi pontos pois depois pensei que podem haver funcionários sem projetos então não seria n:m e sim 0,n. Ms como não houve retorno do tutor sobre o que errei é suposição minha.
+
 Todas as chaves primárias e estrangeiras são do tipo INT Unsigned, visto que não faz sentido o código ser negativo e desse modo vou ter o dobro de possibilidades de código. As chaves primárias de códigos também são de autoincremento para que no cadastro não seja necessária a precaução com a criação do código, ele sempre será gerado automaticamente sendo o próximo de cada entidade.
 Para o salário na tabela CARGOS decidi usar um DECIMAL(10,2) imaginando que o salário do cargo mais alto não passaria de 99.999.999,99.
 
